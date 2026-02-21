@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Você, Meu Amor 💙</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Corações Flutuantes -->
+    <div id="floating-hearts"></div>
+
+    <!-- Overlay de Brilho -->
+    <div class="overlay"></div>
+
+    <!-- Seção Hero -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="title-container">
+                <span class="sparkle">✨</span>
+                <h1 class="main-title">Para Você, Meu Amor</h1>
+                <span class="sparkle">✨</span>
+            </div>
+            <p class="subtitle">Cada momento ao seu lado é uma memória preciosa</p>
+
+            <div class="hearts-group">
+                <div class="heart heart-1">💙</div>
+                <div class="heart heart-2">💙</div>
+                <div class="heart heart-3">💙</div>
+            </div>
+
+            <p class="emoji-text">💙✨💎</p>
+            <p class="love-text">Te amo infinitamente</p>
+
+            <div class="scroll-indicator">
+                <p>Role para ver mais</p>
+                <div class="mouse">
+                    <div class="mouse-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Fotos -->
+    <section class="photos-section">
+        <div class="section-header">
+            <span class="icon">📷</span>
+            <h2 class="section-title">Nossos Momentos</h2>
+            <span class="icon">📷</span>
+        </div>
+        <p class="section-subtitle">Cada foto conta nossa história de amor</p>
+
+        <div class="gallery">
+            <button class="nav-btn prev-btn" onclick="previousPhoto()">
+                <span>‹</span>
+            </button>
+
+            <div class="photo-container">
+                <div class="photo-frame">
+                    <img id="main-photo" src="FOTOS/foto1.jpg" alt="Foto do casal">
+                </div>
+                <div id="love-burst"></div>
+            </div>
+
+            <button class="nav-btn next-btn" onclick="nextPhoto()">
+                <span>›</span>
+            </button>
+        </div>
+
+        <div class="photo-info">
+            <p class="photo-description" id="photo-description"></p>
+            <div class="photo-counter">
+                <span id="current-photo">1</span> de <span id="total-photos">7</span>
+            </div>
+            <div class="photo-dots" id="photo-dots"></div>
+        </div>
+    </section>
+
+    <!-- Seção de Vídeos -->
+    <section class="videos-section">
+        <div class="section-header">
+            <span class="icon">🎬</span>
+            <h2 class="section-title">Nossos Vídeos</h2>
+            <span class="icon">🎬</span>
+        </div>
+
+        <div class="video-card">
+            <div class="video-icon">
+                <div class="play-button">▶</div>
+            </div>
+            <h3>Nossas Lembranças</h3>
+            <p class="video-text">Nossas memorias em movimento 💙</p>
+            <div class="videos-container">
+                <div class="photo-frame">
+                    <video id="main-video" controls preload="metadata">
+                        <source src="VIDEOS/video4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                </div>
+
+            <p class="video-subtitle">Nossas memórias em movimento</p>
+            <p class="video-subtitle">Momentos que valem mais que mil palavras</p>
+            
+            <div class="hearts-group small">
+                <span class="floating-emoji">💙</span>
+                <span class="floating-emoji">💙</span>
+                <span class="floating-emoji">💙</span>
+            </div>
+        </div>
+
+        <div class="final-message">
+            <p><span class="sparkle">✨</span> Aguarde mais surpresas, meu amor <span class="sparkle">✨</span></p>
+            <p class="emoji-text">💙✨💎</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Feito com amor para você 💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
